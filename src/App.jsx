@@ -1,6 +1,6 @@
-import AppHeader from "./components/layout/AppHeader.jsx";
-import AppSider from "./components/layout/AppSider.jsx";
-import AppContent from "./components/layout/AppContent.jsx";
+import AppHeader from "./components/AppHeader/AppHeader.jsx";
+import AppSider from "./components/AppSider/AppSider.jsx";
+import AppContent from "./components/AppContent/AppContent.jsx";
 
 export default function App() {
     return (
