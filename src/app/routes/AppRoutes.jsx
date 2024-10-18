@@ -7,7 +7,7 @@ import {RoutesList} from "./routes.types.js";
 import Preloader from "../../components/Preloader/Preloader.jsx";
 import AppLayout from "../AppLayout.jsx";
 
-const HomePage = lazy(() => import("./../../pages/HomePage/HomePage.jsx"));
+const Profile = lazy(() => import("./../../components/AppProfile//AppProfile.jsx"));
 
 const AppRoutes = () => {
     return (
@@ -15,8 +15,9 @@ const AppRoutes = () => {
             <Routes>
                 <Route path={RoutesList.home} element={<AppLayout/>}>
                     {/*=== home page ===*/}
-                    <Route index element={<HomePage/>}/>
+                    <Route index element={<Profile/>}/>
                 </Route>
+
             </Routes>
         </Suspense>
     );
