@@ -17,6 +17,7 @@ const AppRoutes = () => {
                     {/*=== home page ===*/}
                     <Route index element={<Profile/>}/>
                 </Route>
+
             </Routes>
         </Suspense>
     );
