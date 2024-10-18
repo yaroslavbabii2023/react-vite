@@ -2,7 +2,6 @@ import s from "./AppHeader.module.css";
 import logo from "../../assets/icons/logo.svg";
 
 export default function AppHeader() {
-  console.log(s);
 
   return (
     <header className={s.header}>
