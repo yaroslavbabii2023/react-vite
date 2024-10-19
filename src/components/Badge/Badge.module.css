@@ -1,0 +1,11 @@
+.badge {
+  color: #0d38ce;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #e4eaff;
+  padding: 6px 20px;
+}

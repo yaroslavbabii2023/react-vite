@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.appProfile {
+  background-color: #e4eaff;
+}
+.container {
+  padding-top: 50px;
+  max-width: 1200px;
+  min-width: 90%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.cardWrapper {
+  padding: 25px 27px 26px 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card {
+  background-color: #ffff;
+  border-radius: 15px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.itemTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cardTitle {
+  color: black;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+}
+.cardDate {
+  color: #00000079;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+.link {
+  color: #0d38ce;
+  border: 1px solid #0d38ce;
+  border-radius: 10px;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+  transition: all ease 0.3s;
+}
+.link:hover {
+  background-color: #0d38ce;
+  color: #ffff;
+}
+.itemBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.badges {
+  display: flex;
+  gap: 13px;
+}
+.description {
+  font-family: "inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.425);
+}
+.status {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #0d38ce;
+}
+.statuses {
+  display: flex;
+  gap: 23px;
+}
+.statusItem {
+  display: flex;
+  gap: 10px;
+}
