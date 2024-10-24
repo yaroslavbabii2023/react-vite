@@ -1,0 +1,47 @@
+.button {
+  text-decoration: none;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.middleButton {
+  text-decoration: none;
+  background-color: #0d38ce;
+  border-radius: 50%;
+  border: none;
+  padding: 12px 11px;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+.container {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: fixed;
+  top: 33.3%;
+  background-color: #fff;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 58px 7px;
+  box-shadow: 1px 5px 5px rgb(139, 139, 139);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 82px;
+}
+@media screen and (max-width: 980px) {
+  .wrapper {
+    flex-direction: row;
+  }
+  .container {
+    bottom: 0px;
+    top: 95%;
+    left: 28%;
+    padding: 7px 67px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 0;
+  }
+}
