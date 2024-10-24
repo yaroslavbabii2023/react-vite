@@ -5,7 +5,7 @@ import icon from "../../assets/icons/ellipse.svg";
 
 const badgesList = ["Дизайн", "Data Science", "AR"];
 
-const cardsData = Array(6).fill({
+const cardsData = Array(8).fill({
   title: "More Tech",
   date: "20 октября 2021",
   description:
