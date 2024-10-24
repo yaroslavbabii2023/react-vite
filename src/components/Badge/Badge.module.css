@@ -9,3 +9,11 @@
   background-color: #e4eaff;
   padding: 6px 20px;
 }
+@media (max-width: 480px) {
+  .badge {
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 8px;
+    padding: 5 16px;
+  }
+}

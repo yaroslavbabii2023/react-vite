@@ -5,7 +5,7 @@
   background-image: url("../../assets/pictures/image 8.png");
   background-size: cover;
   width: 100%;
-  height: 75px;
+  height: 71px;
 }
 
 .wrapper {
@@ -14,6 +14,7 @@
   align-items: center;
   padding-top: 27px;
   padding-bottom: 21px;
+  gap: 19px;
 }
 .logo {
   width: auto;
@@ -38,11 +39,13 @@
   font-size: 28px;
   line-height: 33px;
   letter-spacing: -2%;
+  margin: 0;
 }
 .subtitle {
+  font-family: "inter";
   font-weight: 400;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 14px;
   letter-spacing: 1%;
 }
 
@@ -61,7 +64,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 19px;
+    gap: 18px;
+    padding-top: 53px;
   }
   .header {
     height: 235px;
@@ -80,5 +84,14 @@
   }
   .headerLogo {
     padding-left: 10px;
+    display: flex;
+  }
+  .logo {
+    height: 17px;
+    width: 308px;
+  }
+  .span {
+    font-size: 14px;
+    line-height: 12px;
   }
 }

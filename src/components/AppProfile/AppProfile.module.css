@@ -5,20 +5,19 @@
 }
 .container {
   padding-top: 50px;
-  max-width: 1200px;
-  min-width: 90%;
+  max-width: 820px;
+  min-width: auto;
   margin: 0 auto;
   padding-bottom: 50px;
 }
 
-.cardContainer {
+/* .cardContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
-}
+} */
 
 .wrapper {
-
 }
 
 .cardWrapper {
@@ -30,8 +29,10 @@
 
 .cardGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 карточки в ряд */
-  gap: 16px; /* Промежуток между карточками */
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+
+  gap: 30px;
 }
 
 .card {
@@ -39,7 +40,6 @@
   border-radius: 15px;
   width: -webkit-max-content;
   width: -moz-max-content;
-  width: max-content;
 }
 .itemTop {
   display: flex;
@@ -91,6 +91,7 @@
   font-weight: 400;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.425);
+  white-space: pre-line;
 }
 .status {
   font-family: "inter";
@@ -106,4 +107,38 @@
 .statusItem {
   display: flex;
   gap: 10px;
+}
+@media (max-width: 900px) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding-top: 18px;
+  }
+  .cardGrid {
+    /* padding: 0 24px; */
+  }
+  .cardTitle {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .cardDate {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .link {
+    font-size: 10px;
+    padding: 5 16px;
+    border-radius: 8px;
+  }
+  .description {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .status {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
