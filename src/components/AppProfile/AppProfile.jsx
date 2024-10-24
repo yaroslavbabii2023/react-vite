@@ -3,6 +3,7 @@ import s from "./AppProfile.module.css";
 import Badge from "../Badge/Badge";
 import icon from "../../assets/icons/ellipse.svg";
 
+
 const badgesList = ["Дизайн", "Data Science", "AR"];
 
 const cardsData = Array(8).fill({
