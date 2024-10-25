@@ -1,7 +1,9 @@
 import s from "../../pages/MessagePage/MessagePage.module.css";
 import logo from "../../assets/icons/logo_notifications.svg";
 import image from "../../assets/pictures/image.png";
+
 const MessagePage = () => {
+
   return (
     <div className={s.container}>
       <div className={s.wrapper}>
@@ -13,7 +15,7 @@ const MessagePage = () => {
           </a>
         </div>
         <div className={s.card}>
-          <div className={cardContainer}>
+          <div className={s.cardContainer}>
             <div className={s.item}>
               <img src={image} alt="image" />
               <h2 className={s.titleItem}>
