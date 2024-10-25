@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import s from "./AppProfile.module.css";
-import Badge from "../Badge/Badge";
+import s from "./MainPage.module.css";
+import Badge from "../../components/Badge/Badge.jsx";
 import icon from "../../assets/icons/ellipse.svg";
 
 
@@ -14,7 +14,7 @@ const cardsData = Array(8).fill({
   statuses: ["Есть отбор", "Регистрация до 21.09"],
 });
 
-const AppProfile = () => {
+const MainPage = () => {
   return (
     <div className={s.appProfile}>
       <div className={s.container}>
@@ -63,4 +63,4 @@ const AppProfile = () => {
   );
 };
 
-export default AppProfile;
+export default MainPage;

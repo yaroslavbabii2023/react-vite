@@ -1,4 +1,5 @@
 export const RoutesList = {
-    home: "/",
+    main: "/",
     profile: "/profile",
+    message: "/message"
 };
