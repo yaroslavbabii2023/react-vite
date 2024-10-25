@@ -1,0 +1,57 @@
+.container {
+  background-color: #e4eaff;
+  border-radius: 15px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #b8c8ff;
+}
+.title {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #0d38ce;
+}
+.link {
+  text-decoration: none;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  gap: 15px;
+}
+.titleItem {
+  font-weight: 600;
+  font-family: "inter";
+  font-size: 17px;
+  line-height: 25px;
+}
+.subtitleItem {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #00000099;
+}
+.button {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  border-radius: 10px;
+}
+.cardContainer {
+}
