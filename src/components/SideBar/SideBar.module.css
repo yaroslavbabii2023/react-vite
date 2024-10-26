@@ -9,9 +9,8 @@
   background-color: #0d38ce;
   border-radius: 50%;
   border: none;
-  padding: 12px 11px;
-  width: 42px;
-  height: 42px;
+  padding: 11px 13px;
+
   cursor: pointer;
 }
 .container {
@@ -19,7 +18,8 @@
   width: -moz-max-content;
   width: max-content;
   position: fixed;
-  top: 33.3%;
+  top: 50%;
+  transform: translate(0, -50%);
   background-color: #fff;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
@@ -30,15 +30,16 @@
   display: flex;
   flex-direction: column;
   gap: 82px;
+  align-items: center;
 }
 @media screen and (max-width: 980px) {
   .wrapper {
     flex-direction: row;
   }
   .container {
-    bottom: 0px;
-    top: 95%;
-    left: 28%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
     padding: 7px 67px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
