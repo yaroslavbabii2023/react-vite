@@ -16,7 +16,7 @@ const MessagePage = () => {
           </a>
         </div>
         <div className={s.card}>
-          <div className={cardContainer}>
+          <div className={s.cardContainer}>
             <div className={s.item}>
               <img src={image} alt="image" />
               <h2 className={s.titleCard}>
