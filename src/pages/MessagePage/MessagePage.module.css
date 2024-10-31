@@ -92,13 +92,29 @@ body {
   background-color: #fff;
   cursor: pointer;
 }
+.button:hover {
+  background-color: #0d38ce;
+  color: #fff;
+  transition: all ease 0.5s;
+}
 
 .cardContainer {
   display: flex;
   gap: 15px;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
+.item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-left: 21px;
+}
+.buttonWrapper {
+  padding-right: 27px;
+}
 .description {
   font-family: "inter";
   font-weight: 400;

@@ -24,8 +24,34 @@ const MessagePage = () => {
                 <span className={s.subtitleCard}>3 человека</span>
               </h2>
             </div>
+            <div className={s.buttonWrapper}>
+              <button className={s.button}>принять</button>
+            </div>
+          </div>
+          <div className={s.middleWrapper}>
+            <p className={s.description}>
+              Привет, нам нужен дизайнер, не хочешь к нам <br /> в команду?
+            </p>
+          </div>
+          <div className={s.bottomWrapper}>
+            {badgesList.map((title, index) => (
+              <Badge badgeTitle={title} key={index} />
+            ))}
+          </div>
+        </div>
 
-            <button className={s.button}>принять</button>
+        <div className={s.card}>
+          <div className={s.cardContainer}>
+            <div className={s.item}>
+              <img src={image} alt="image" />
+              <h2 className={s.titleCard}>
+                ITAM - 1 <br />{" "}
+                <span className={s.subtitleCard}>3 человека</span>
+              </h2>
+            </div>
+            <div className={s.buttonWrapper}>
+              <button className={s.button}>принять</button>
+            </div>
           </div>
           <div className={s.middleWrapper}>
             <p className={s.description}>
