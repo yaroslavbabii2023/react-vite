@@ -1,0 +1,131 @@
+body {
+  background-color: #e4eaff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+  /* width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; */
+}
+
+.firstCard,
+.secondCard,
+.thirdCard {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: #ffff;
+  border-radius: 15px;
+}
+.thirdCard {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #b8c8ff;
+  padding: 21px 20px 25px 30px;
+}
+.title {
+  font-family: "inter";
+  font-size: 17px;
+  line-height: 21px;
+  color: #0d38ce;
+  font-weight: 600;
+}
+.item {
+  display: flex;
+  gap: 190px;
+  align-items: center;
+  padding: 13px 30px 14px 30px;
+}
+.titleItem {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: black;
+}
+.subtitleItem {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #00000099;
+}
+.icons {
+  display: flex;
+  gap: 17px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+}
+.description {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #00000099;
+}
+.descriptions {
+  padding: 0 30px 15px 30px;
+}
+.badges {
+  display: flex;
+  gap: 17px;
+  padding: 17px 0 26px 27px;
+}
+.content {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 20px 0 26px 20px;
+}
+.contentTitle {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+}
+.contentSubtitle {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #00000099;
+}
+.cardWrapper {
+  display: grid;
+  gap: 30px;
+  padding: 22px 0 24px 20px;
+}
+.cardContainer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.containerTitle {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+}
+.containerSubtitle {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #00000099;
+}
