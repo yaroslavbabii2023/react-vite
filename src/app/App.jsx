@@ -1,11 +1,14 @@
 import AppProvider from "./AppProvider.jsx";
 import AppRoutes from "./routes/AppRoutes.jsx";
 import './../styles/styles.css'
+import {TitleProvider} from "../components/TitleContext/TitleContext.jsx";
 
 export default function App() {
     return (
-        <AppProvider>
-            <AppRoutes />
-        </AppProvider>
+        <TitleProvider>
+            <AppProvider>
+                <AppRoutes />
+            </AppProvider>
+        </TitleProvider>
     );
 }
